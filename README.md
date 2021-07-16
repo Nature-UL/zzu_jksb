@@ -7,18 +7,26 @@
 + `python3`
 + `requests`
 ## 用法：
-需要确保电脑安装`python`以及`python`的`requests`模块：
-1. 如果你已安装`python`，请看第二步。[点击此处](https://www.baidu.com/link?url=78fS9ExFcc-uQCdfKhT-l7XpsRKIysDEDZag9AaOcqmJw-JKa0fOdfaQWjl7DH_UoQsTHpkPvAjuRhKlUqj59w3gIuRFN26iBmgFt7aoGz7&wd=&eqid=fca2268e0003b78f0000000360afad5e)查看安装`python`的教程
-2. 请打开命令行使用如下命令安装`requests`模块
+
+1. 用记事本打开并修改`jksb.py`的第2行第3行，修改为自己的**账户名**和**密码**，修改完之后保存。
+```python
+# 将XXXX替换为学号和密码
+id = "XXXXX"
+pwd = "XXXXX"
+```
+2. 打开命令行，运行下列命令即可打卡。
+```bash
+python jksb.py
+``` 
+3. 如果提示未安装requests模块，请输入下面命令
 ```bash
 pip install requests
 ```
-3. 安装好之后，将`jksb.py`下载下来
-4. 用记事本打开并修改`jksb.py`的第五行第六行，修改为自己的**账户名**和**密码**，修改完之后保存。
-5. 打开命令行，运行下列命令即可打卡。如果你的文件未放在`D`盘下，请自动更改为文件所在路径。
-```bash
-python D:\jksb.py
-``` 
+
+## 运行截图
+
+![image](https://user-images.githubusercontent.com/38482259/125930325-8dbe6d10-27c9-4cfc-9b26-26ab1ca9d9e5.png)
+
 
 ## Q&A
 + 如何打开命令行？
