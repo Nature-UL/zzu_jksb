@@ -1,6 +1,10 @@
 #账号 密码
 id = "XXXX"
-pwd = "XXXX"
+pwd = "XXXX"  
+#账号和密码需要被双引号""包裹
+#   eg:
+#       id = "201988880101"
+#       pwd = "password"
 
 import re
 import requests
